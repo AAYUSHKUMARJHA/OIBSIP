@@ -1,0 +1,97 @@
+/*font-family: 'Moon Dance', cursive;
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav1{
+    width: 100%;    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.navi{
+    margin:0 5 px;
+}
+.nav1{
+    text-decoration: none;
+    color: aqua;
+    padding: 5px 10px;
+    font-family: 'Moon Dance', cursive;
+}
+.nav2{
+    width: 100px;
+    height: 60px;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Moon Dance', cursive;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    padding: 100 px 30 px ;
+}
+header{
+    width: 100%;
+    height :100vh;
+    background: url(C.img);
+    background-size: 100% 100%;
+}
+.h-text{
+    max-width: 600px;
+    color: white;
+    text-align: center;
+    display: contents;
+
+}
+.h-text{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Ultra', serif;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+.Blog{
+
+    color:Black;
+}
+.loginbox{
+    width: 300px;
+    height: 400px;
+    background: #000;
+    color: rgb(130, 7, 7);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+  padding: 70px 50px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
